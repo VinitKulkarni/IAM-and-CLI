@@ -1,0 +1,269 @@
+  233  aws configure
+  234  exit
+  235  aws --version
+  236  aws --version
+  237  aws configure
+  238  aws s3 ls
+  239  grep aws
+  240  ls | grep aws
+  241  aws s3 ls --region=ap-south-1
+  242  cat ~/.aws/credentials
+  243  unset AWS_SECRET_ACCESS_KEY
+  244  unset AWS_ACCESS_KEY_ID
+  245  cat ~/.aws/credentials
+  246  clear
+  247  aws configure
+  248  aws s3 ls
+  249  aws s3 ls --region=ap-south-1
+  250  aws ec2 describe-instances
+  251  aws ec2 describe-instances --region=ap-south-1
+  252  aws ec2
+  253  aws ec2 help
+  254  aws ec2 describe-instances
+  255  aws ec2 describe-instances --region=ap-south-1
+  256  aws ec2 describe-instances --filters "Name=instance-state-name,Values=stopped"
+  257  aws ec2 describe-instances --region=ap-south-1 --filters "Name=instance-state-name,Values=stopped"
+  258  aws ec2 describe-snapshots
+  259  aws ec2 describe-snapshots --region=ap-south-1
+  260  aws ec2 ls --region=ap-south-1
+  261  aws s3api list-buckets --query "Buckets[].Name"
+  262  aws s3api list-buckets --region=ap-south-1 --query "Buckets[].Name"
+  263  aws s3api list-buckets --region=ap-south-1 --query "Buckets[].Name" | "Buckets[].key"
+  264  aws s3api list-buckets --region=ap-south-1 --query "Buckets[].Name" "Buckets[].key"
+  265  aws s3 ls --region=ap-south-1 s3://<website-launch-s3bucket>
+  266  cat ~/.aws/credentials
+  267  aws configure
+  268  aws configure
+  269  aws s3 ls
+  270  aws s3 ls s3://<website-launch-s3bucket>
+  271  aws s3 ls s3://website-launch-s3bucket
+  272  aws ec2 describe-instance-status
+  273  aws ec2 describe-instances
+  274  exit
+  275  aws configure
+  276  aws s3 ls
+  277  aws iam list-users
+  278  exit
+  279  aws configure
+  280  clear
+  281  aws s3 mb s3://demo-s3-bucket-100
+  282  aws s3 mb s3://demo-s3-bucket-101
+  283  aws s3 ls
+  284  aws s3 cp C:\Users\vinit\OneDrive\Documents\s3 upload download s3://demo-s3-bucket-100
+  285  aws s3 cp C:\Users\vinit\OneDrive\Documents\s3 upload download s3://demo-s3-bucket-100
+  286  aws s3 cp C:\Users\vinit\OneDrive\Documents\s3uploaddownload s3://demo-s3-bucket-100
+  287  aws s3 cp C:\Users\vinit\OneDrive\Documents\s3uploaddownload s3://demo-s3-bucket-100
+  288  aws s3 cp C:\s3uploaddownload s3://demo-s3-bucket-100
+  289  aws s3 cp C:\s3uploaddownload\upload1 s3://demo-s3-bucket-100
+  290  aws s3 cp C:\s3uploaddownload\upload1.txt s3://demo-s3-bucket-100
+  291  ls
+  292  cd C
+  293  ls
+  294  cd Downloads/
+  295  ls
+  296  ls
+  297  aws s3 cp "upload1.txt" s3://demo-s3-bucket-100
+  298  aws s3 cp "upload2.txt" s3://demo-s3-bucket-101
+  299  aws s3 ls s3://demo-s3-bucket-101
+  300  aws s3 ls s3://demo-s3-bucket-100
+  301  aws s3 cp s3://demo-s3-bucket-100/upload1.txt ~/Downloads/
+  302  pwd
+  303  aws s3 cp s3://demo-s3-bucket-100/upload1.txt /c/Users/vinit/Downloads/
+  304  cd ..
+  305  ls
+  306  cd Videos/
+  307  ls
+  308  pwd
+  309  aws s3 cp s3://demo-s3-bucket-100/upload1.txt /c/Users/vinit/Videos/
+  310  history
+  311  exit
+  312  aws configure
+  313  aws s3 ls
+  314  aws s3api get-bucket-encryption --bucket demo-s3-bucket-100
+  315  aws s3api get-bucket-encryption --bucket demo-s3-bucket-100
+  316  aws s3api get-bucket-encryption --bucket website-launch-s3bucket
+  317  aws s3 ls s3://website-launch-s3bucket/ --recursive
+  318  aws ec2 start-instances --instance-ids i-09819ef9496e65640
+  319  aws ec2 stop-instances --instance-ids i-09819ef9496e65640
+  320  ls
+  321  cd Linux_folder/
+  322  ls
+  323  cd ..
+  324  mkdir aws_folder
+  325  ls cd aws_folder/
+  326  cd aws_folder/
+  327  ls
+  328  pwd
+  329  vi sample_script.sh
+  330  bash sample_script.sh
+  331  ls -l
+  332  vi startDemoVM_EC2.sh
+  333  vi stopDemoVM_EC2.sh
+  334  bash startDemoVM_EC2.sh
+  335  bash stopDemoVM_EC2.sh
+  336  history
+  337  ls
+  338  vi startDemoVM_EC2.sh
+  339  vi stopDemoVM_EC2.sh
+  340  vi start_stop_DemoVM_Ec2.sh
+  341  bash start_stop_DemoVM_Ec2.sh
+  342  aws ec2 describe-instance-status --filters "Name=instance-state-code,Values=80"
+  343  aws ec2 describe-instance-status --include-all-instances --filters Name=instance-state-name,Values='stopped'
+  344  aws ec2 describe-instance-status --include-all-instances
+  345  aws ec2 describe-instance-status i-09819ef9496e65640
+  346  aws ec2 describe-instance-statu i-09819ef9496e65640
+  347  aws ec2 describe-instance-status i-09819ef9496e65640
+  348  aws ec2 describe-instance-status --instance-ids i-09819ef9496e65640
+  349  aws ec2 describe-instance --instance-ids i-09819ef9496e65640
+  350  aws ec2 describe-instances --instance-ids i-09819ef9496e65640
+  351  ls -l
+  352  vi demo_script.sh
+  353  bash demo_script.sh
+  354  vi demo_script.sh
+  355  bash demo_script.sh
+  356  vi demo_script.sh
+  357  bash demo_script.sh
+  358  vi demo_script.sh
+  359  vi demo_script.sh
+  360  bash demo_script.sh
+  361  vi demo_script.sh
+  362  bash demo_script.sh
+  363  vi demo_script.sh
+  364  cat ~/.aws/credentials
+  365  aws configure
+  366  aws ec2 describe-instance --instance-ids i-09819ef9496e65640
+  367  aws ec2 describe-instances --instance-ids i-09819ef9496e65640
+  368  aws ec2 describe-instances --instance-ids i-09819ef9496e65640 | awk '{print $2}'
+  369  aws ec2 describe-instances --instance-ids i-09819ef9496e65640 | awk '{print $3}'
+  370  aws ec2 describe-instances --instance-ids i-09819ef9496e65640 | awk 'FNR == 20 {print $3}'
+  371  aws ec2 describe-instances --instance-ids i-09819ef9496e65640 | awk 'FNR == 21 {print $3}'
+  372  aws ec2 describe-instances --instance-ids i-09819ef9496e65640 | awk 'FNR == 19 {print $3}'
+  373  ls
+  374  vi demo_script.sh
+  375  bash demo_script.sh
+  376  vi demo_script.sh
+  377  bash demo_script.sh
+  378  vi demo_script.sh
+  379  bash demo_script.sh
+  380  vi demo_script.sh
+  381  bash demo_script.sh
+  382  vi demo_script.sh
+  383  bash demo_script.sh
+  384  vi demo_script.sh
+  385  bash demo_script.sh
+  386  bash demo_script.sh
+  387  vi demo_script.sh
+  388  bash demo_script.sh
+  389  vi demo_script.sh
+  390  ls
+  391  bash demo_script.sh
+  392  vi demo_script.sh
+  393  aws ec2 describe-instances --instance-ids i-09819ef9496e65640
+  394  aws ec2 describe-instances --instance-ids i-09819ef9496e65640
+  395  bash demo_script.sh
+  396  vi demo_script.sh
+  397  bash demo_script.sh
+  398  bash demo_script.sh
+  399  vi demo_script.sh
+  400  aws ec2 describe-instances --instance-ids i-09819ef9496e65640
+  401  aws ec2 describe-instances --instance-ids i-09819ef9496e65640
+  402  aws ec2 describe-instances --instance-ids $instance_id --query "Reservations[0].Instances[0].State.Name"
+  403  vi demo_script.sh
+  404  bash demo_script.sh
+  405  bash demo_script.sh
+  406  vi demo_script.sh
+  407  bash demo_script.sh
+  408  vi demo_script.sh [A
+  409  vi demo_script.sh ls
+  410  cat demo_script.sh
+  411  ls -l
+  412  clear
+  413  vi demo_script.sh
+  414  bash demo_script.sh
+  415  vi demo_script.sh
+  416  bash demo_script.sh
+  417  bash demo_script.sh
+  418  bash demo_script.sh
+  419  bash demo_script.sh
+  420  bash demo_script.sh
+  421  vi demo_script.sh
+  422  ls -l
+  423  cat startDemoVM_EC2.sh
+  424  vi demo_script.sh
+  425  vi demo_script.sh
+  426  bash demo_script.sh
+  427  bash demo_script.sh
+  428  ls -l
+  429  cat start_stop_DemoVM_Ec2.sh
+  430  cat demo_script.sh
+  431  vi start_stop_DemoVM_Ec2.sh
+  432  bash start_stop_DemoVM_Ec2.sh
+  433  bash start_stop_DemoVM_Ec2.sh
+  434  vi start_stop_DemoVM_Ec2.sh
+  435  bash start_stop_DemoVM_Ec2.sh
+  436  bash start_stop_DemoVM_Ec2.sh
+  437  vi start_stop_DemoVM_Ec2.sh
+  438  bash start_stop_DemoVM_Ec2.sh
+  439  vi start_stop_DemoVM_Ec2.sh
+  440  bash start_stop_DemoVM_Ec2.sh
+  441  vi start_stop_DemoVM_Ec2.sh
+  442  bash start_stop_DemoVM_Ec2.sh
+  443  vi start_stop_DemoVM_Ec2.sh
+  444  bash start_stop_DemoVM_Ec2.sh
+  445  vi start_stop_DemoVM_Ec2.sh
+  446  bash start_stop_DemoVM_Ec2.sh
+  447  vi start_stop_DemoVM_Ec2.sh
+  448  ls
+  449  rm demo_script.sh
+  450  ls
+  451  ls -l
+  452  vi start_stop_DemoVM_Ec2.sh
+  453  bash start_stop_DemoVM_Ec2.sh
+  454  bash start_stop_DemoVM_Ec2.sh
+  455  vi start_stop_DemoVM_Ec2.sh
+  456  exit
+  457  aws configure
+  458  aws s3 ls
+  459  cd aws_folder/
+  460  ls
+  461  pwd
+  462  mkdir sync
+  463  ls
+  464  cd sync
+  465  aws s3 cp c:\Users\vinit\aws_folder\sync s3://demo-s3-bucket-101\sync --recursive
+  466  aws s3 cp \c\Users\vinit\aws_folder\sync s3://demo-s3-bucket-101\sync --recursive
+  467  aws s3 cp \c\Users\vinit\aws_folder\sync s3://demo-s3-bucket-101/sync --recursive
+  468  ls
+  469  cd ..
+  470  ls
+  471  aws s3 cp ~sync/ s3://demo-s3-bucket-101/sync --recursive
+  472  aws s3 sync c:Users\vinit\aws_folder\sync\ s3://demo-s3-bucket-101/sync --exclude * --include *.txt
+  473  aws s3 sync c/Users/vinit/aws_folder/sync/ s3://demo-s3-bucket-101/sync --exclude * --include *.txt
+  474  cd sync/
+  475  aws s3 sync c/Users/vinit/aws_folder/sync/ s3://demo-s3-bucket-101/sync --exclude * --include *.txt
+  476  aws s3 sync c/Users/vinit/aws_folder/sync/ s3://demo-s3-bucket-101/sync
+  477  aws s3 sync /c/Users/vinit/aws_folder/sync/ s3://demo-s3-bucket-101/sync
+  478  aws s3 cp s3://demo-s3-bucket-101/upload2.txt s3://demo-s3-bucket-100/
+  479  history
+  480  ls
+  481  cd ..
+  482  aws ec2 create-vpc     --cidr-block 10.0.0.0/16     --tag-specification ResourceType=vpc,Tags=[{Key=Name,Value=DemoVPC}]
+  483  aws ec2 create-vpc     --cidr-block 10.0.0.0/16     --tag-specification ResourceType=vpc,Tags=[{Key=Name,Value=MyVpc}]
+  484  aws ec2 create-vpc --cidr-block 10.0.0.0/16
+  485  aws ec2 create-tags --resources 08636661718fb84e6 --tags Key=Name,Value=cli-VPC
+  486  aws ec2 create-tags --resources vpc-08636661718fb84e6 --tags Key=Name,Value=cli-VPC
+  487  aws ec2 create-subnet --vpc-id vpc-08636661718fb84e6 --cidr-block 10.0.1.0/24
+  488  aws ec2 create-tags --resources  subnet-0011d4ff839cf0cbb --tags Key=Name,Value=public_subnet_cli-VPC
+  489  aws ec2 create-subnet --vpc-id vpc-08636661718fb84e6 --cidr-block 10.0.2.0/24
+  490  aws ec2 create-tags --resources  subnet-01c3b5a0f899df5a2 --tags Key=Name,Value=private_subnet_cli-VPC
+  491  aws ec2 create-internet-gateway
+  492  aws ec2 create-tags --resources igw-0c73b9571544dcb9d --tags Key=Name,Value=IG-cli-VPC
+  493  aws ec2 attach-internet-gateway --internet-gateway-id igw-0c73b9571544dcb9d --vpc-id vpc-08636661718fb84e6
+  494  aws ec2 create-route-table --vpc-id vpc-08636661718fb84e6
+  495  aws ec2 create-route-table --vpc-id vpc-08636661718fb84e6
+  496  aws ec2 create-tags --resources rtb-0d525c7379d6a847f --tags Key=Name,Value=Public_rt_cliVPC
+  497  aws ec2 create-tags --resources rtb-0300e347df1154cd0 --tagsKey=Name,Value=Private_rt_cliVPC
+  498  aws ec2 create-tags --resources rtb-0300e347df1154cd0 --tags Key=Name,Value=Private_rt_cliVPC
+  499  exit
+  500  history
+  501  history
